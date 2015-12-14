@@ -41,6 +41,7 @@
                 </thead>
                 <tbody>
                 @foreach ($tasks as $task)
+                    {{--TODO: durchstreichen statt Löschen--}}
                     <tr>
                         {{--Task Name--}}
                         <td class="table-text">

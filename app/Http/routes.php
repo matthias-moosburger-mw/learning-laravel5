@@ -28,7 +28,6 @@ Route::get('/tasks', function (){
         'tasks' => $tasks
     ]);
 });
-
 /*
  * Add a new Task
 **/
